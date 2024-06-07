@@ -11,11 +11,6 @@ if(valor > 10) {
 }  
 
 
-
-
-
-
-
 var numero = 1;
 
 if(numero > 0){
@@ -26,11 +21,7 @@ if(numero > 0){
     console.log("NUMERO É ZERO.")
 }
 
-
-
-
-
-
+//if simples
 var x =10;
 
 if(x <100){
@@ -43,9 +34,7 @@ if(x < 1000){
 
 
 
-
-
-
+//_____________________________________________________________________
 // switch .. case .. break;
 
 
@@ -62,9 +51,11 @@ switch(1){
 }
 
 
-var CondigoErro = leia.questionInt("DIGITE O CODIGODO ERRO. ")
+var CodigoErro = leia.questionInt("DIGITE O CODIGO DO ERRO: ")
 
-switch(CondigoErro){
+//quanto quer que fique como string(txt) colocar "leia.question"
+
+switch(CodigoErro){
     case 400:
     case 401:
     case 404:
@@ -79,3 +70,5 @@ switch(CondigoErro){
         console.log("NÃO É ERRO")
         break                    
 }
+
+
