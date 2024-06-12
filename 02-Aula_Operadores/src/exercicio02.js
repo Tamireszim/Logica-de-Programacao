@@ -1,13 +1,12 @@
-import leia from "readline-sync"
-{
-var numero = leia.questionInt("Digite Número: " );
-var resto = numero % 2;
+import leia from "readline-sync";
 
-if (resto == 0) {
-    console.log(numero + " Número Par")
+
+var numero = leia.questionInt("Digite Número: " );
+
+if (numero % 2 === 0) {
+    console.log(numero + " Número Par!")
 }
 else{
-    console.log(numero + " Número Impar")
+    console.log(numero + " Número Impar!")
 }
 
-}
