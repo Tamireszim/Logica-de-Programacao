@@ -1,3 +1,4 @@
+import leia from "readline-sync"
 //while(condition){
 //
 //}
@@ -24,3 +25,4 @@ if(porcentagem < 100){
     estaCarregando = false
 }
 }
+
